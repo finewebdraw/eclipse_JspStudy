@@ -11,8 +11,8 @@
 <%
 	//  <%~~% > 자바코드를 사용할 수 잇는 영역 (Scriptlet)  : 지역변수를 선언하는 것! 제어문입니당. 
 	String str="테스트";
-	//System.out.println("str=>"+str); //이문장은 콘솔에 찍으라는 뜻임. 디버깅용! 
-	out.println("str=>"+str);//웹에 출력 , out: 내장객체라구 부른다는데 잘 모르겟음. 
+	System.out.println("str=>"+str); //이문장은 콘솔에 찍으라는 뜻임. 디버깅용! 
+	out.println("<h1>"+"str=>"+str+"</h1>");//웹에 출력 , out: 내장객체라구 부른다는데 잘 모르겟음. 
 %>
 </body>
 </html>
