@@ -15,5 +15,7 @@
 	out.println("<h1>"+"str=>"+str+"</h1>");//웹에 출력 , out: 내장객체라구 부른다는데 잘 모르겟음. 
 %>
 <%=str %>
+<hr>
+str 값 출력 = <%=str %>
 </body>
 </html>
