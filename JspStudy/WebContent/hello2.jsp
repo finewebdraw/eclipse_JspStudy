@@ -14,5 +14,6 @@
 	System.out.println("str=>"+str); //이문장은 콘솔에 찍으라는 뜻임. 디버깅용! 
 	out.println("<h1>"+"str=>"+str+"</h1>");//웹에 출력 , out: 내장객체라구 부른다는데 잘 모르겟음. 
 %>
+<%=str %>
 </body>
 </html>
